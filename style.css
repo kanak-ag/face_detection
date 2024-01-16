@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    /* background-color: rgb(109, 154, 217); */
+    overflow: hidden;
+    /* background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%); */
+}
+
+.container {
+    position: absolute;
+    right: 51px;
+    top: 55px;
+    z-index: 1;
+    height: 700px;
+    width: 1200px;
+    background-color: #ffffff;
+    border-radius: 90px 0 0 90px /50%;
+    margin-left: 70px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.btn-container {
+    position: absolute;
+    display: flex;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background: transparent;
+    background-color: #0051e9;
+    margin-bottom: 50px;
+    margin-right: 50px;
+
+    color: white;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #ffffff;
+    transition: 0.1s ease-in;
+}
+
+.container input {
+    width: 397px;
+    height: 30px;
+    color: #000;
+    margin: 50px 50px 0 50px;
+    padding: 5px;
+    margin-left: 104px;
+
+}
+
+.container select {
+    width: 410px;
+    height: 44px;
+    color: #000;
+    margin: 46px 30px 0 105px;
+    padding: 5px;
+
+}
+
+.reg-btn {
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    right: 20px;
+}
+
+.right {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    top: 90px;
+    left: 68px;
+
+}
+
+.right h1 {
+    color: #ffffff;
+    font-size: 48px;
+}
+
+.right p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.img {
+    mix-blend-mode: color-burn;
+    color: #000;
+    margin-top: 5px;
+    margin-left: 46px;
+    right: 100px
+}
+
+.bt {
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background: transparent;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.img1 {
+    height: 1019px;
+    width: 1952px;
+}
